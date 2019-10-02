@@ -1,0 +1,174 @@
+/* YOUR STYLE HERE */
+
+/* This demo file has */
+
+body {
+	font-family: "Helvetica Neue", sans-serif;
+	margin-top: 100px;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.horns {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.pricing {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.first {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.second { 
+    text-align: center;
+    margin-top: 30px;
+}
+
+.skeleton {
+    text-align: center;
+}
+
+.index {
+    font-family: sans-serif;
+    text-align: left;
+    margin: auto;
+}
+
+ul>li{
+    /* you can change the bullet point for <ul> */
+    list-style-type: square;
+    /*list-style-type: none; */
+}
+
+ol {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* you can change the bullet point for <ol> */
+    list-style-type:upper-roman;
+    background-color: gainsboro;
+    /*list-style-type: none; */
+    
+}
+
+h1 { 
+	font-family: 'Vidaloka', serif;
+	font-size: 6em;
+    /* 16px 1.0000em 100.00%
+    Pixel is a static measurement, while percent and EM are relative measurements. The size of an EM or percent depends on its parent.*/
+	font-weight:  700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 40px;
+	border-top: solid 20px #000;
+    color: darkred;
+    text-align: center;
+}
+
+h2 {	
+	font-family: 'Vidaloka', serif;
+	background-color: darkred;
+	padding: 20px;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+}
+
+h3 {	
+	font-family: "Helvetica Neue", sans-serif;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: black;
+}
+
+table {
+    width: 100%;
+}
+
+th{
+    text-align: left;
+}
+
+p {
+    /* it will choose the default font if you do not use any 'font-family: ;' */
+    
+	margin-bottom: 1em;	 
+    /* Relative to the font-size of the element (2em means 2 times the size of the current font)*/
+    line-height: 1.2em;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.two_col {
+    width: 400px;
+    height: 450px;
+    float: left;
+}
+
+/* forexample, if you need three col*/
+.three_col {
+    width: 260px;
+    height: 500px;
+    float: left;
+}
+
+#lorem {
+    color: #652C90;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.center_block_img {
+    display: block;
+    /* it needs display property 'block', especially image. if not it cannot float at center*/
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.center_block_text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.Arrow {
+    width: 800px;
+    overflow: 1080px;
+    text-align: left;
+    font-size: .9em;
+    font-style: italic;
+}
+
+.Arrow img{
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+   
